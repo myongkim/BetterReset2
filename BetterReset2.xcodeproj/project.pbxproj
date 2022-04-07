@@ -11,6 +11,7 @@
 		1C77735E27FDF19000209123 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C77735D27FDF19000209123 /* ContentView.swift */; };
 		1C77736027FDF19100209123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C77735F27FDF19100209123 /* Assets.xcassets */; };
 		1C77736327FDF19100209123 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C77736227FDF19100209123 /* Preview Assets.xcassets */; };
+		1C77736A27FE0D6200209123 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1C77736927FE0D6200209123 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1C77735D27FDF19000209123 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1C77735F27FDF19100209123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C77736227FDF19100209123 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C77736927FE0D6200209123 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				1C77735B27FDF19000209123 /* BetterReset2App.swift */,
 				1C77735D27FDF19000209123 /* ContentView.swift */,
+				1C77736927FE0D6200209123 /* SleepCalculator.mlmodel */,
 				1C77735F27FDF19100209123 /* Assets.xcassets */,
 				1C77736127FDF19100209123 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C77736A27FE0D6200209123 /* SleepCalculator.mlmodel in Sources */,
 				1C77735E27FDF19000209123 /* ContentView.swift in Sources */,
 				1C77735C27FDF19000209123 /* BetterReset2App.swift in Sources */,
 			);
